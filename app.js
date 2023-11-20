@@ -31,6 +31,6 @@ mongoose.connect(process.env.MONGODB_URI)
 
 
 app.get("/", (req, res) => {
-    res.status(201).json({message:"connected to db"});
+    res.status(201).json({username:"vsushma725@gmail.com", password:"sushma24"});
     
 });
